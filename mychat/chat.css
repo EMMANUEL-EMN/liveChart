@@ -1,0 +1,89 @@
+#img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.sender{
+    width: 300px;
+   text-align: left;
+}
+.msg{
+    width: 300px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px 10px;
+    color: blue;
+}
+.msg2{
+    width: 300px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5px;
+    background-color: green;
+    border-radius: 5px 10px;
+    color: white;
+}
+.receiver{
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+}
+body{
+    background-color: honeydew;
+}
+#list{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.nav{
+    background-color: green;
+    color: white;
+}
+.navlist{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+}
+body{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+#msg{
+    width: 70%;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+    font-size: medium;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    font-size: 1.2em;
+    background-color: green;
+    color: white;
+}
+.flexBox{
+    display: flex;
+    justify-content: space-around;
+}
+.friends{
+    display: flex;
+
+}
+@media screen and (max-width: 700px) {
+    body{
+        width: 100%;
+    }
+}

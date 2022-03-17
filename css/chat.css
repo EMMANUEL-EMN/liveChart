@@ -1,0 +1,22 @@
+#img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    image-rendering: auto;
+    
+}
+.friend{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    text-align: center;
+}
+.uname{
+    color: green;
+    background-color: honeydew;
+    width: 250px;
+    border-radius: 5px 30px;
+}
+#uid{
+    text-decoration: none;
+}
